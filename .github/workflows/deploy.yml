@@ -33,5 +33,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
         # A pasta dist contém os arquivos compilados do React
-        server-dir: ./
+        server-dir: ./public_html/
         # Substitua public_html/ pelo caminho correto se precisar, ex: public_html/seu-site.com/
